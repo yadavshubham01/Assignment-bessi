@@ -7,6 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .container {
@@ -198,7 +199,7 @@ body {
   }
 
   .step-description {
-    font-size: 1rem;
+    font-size: 0.8rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
