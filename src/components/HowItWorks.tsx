@@ -22,7 +22,7 @@ const HowItWorks = () => {
               <div className="step-icon">
                 <img src={step.icon} alt={step.title} />
               </div>
-              <div className="step-title">{`Step ${step.id}:`}</div>
+              <div className="step-title">{`Step ${step.id}:`} </div>
               <div className="step-description">{step.title}</div>
             </div>
             <div className="arrow">
